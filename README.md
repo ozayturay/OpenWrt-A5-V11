@@ -38,7 +38,7 @@ Enter `passwd` to assign a password to root and exit TELNET, SSH to 192.168.1.1 
 
 ### Installing ExtRoot
 
-First you must regain internet access.
+First you must gain internet access for using opkg to install luci and other packages.
 
 ```
 nano /etc/config/network
@@ -93,7 +93,7 @@ reboot
 
 At this step you should see the free space has grown when you use the df command and overlay is mounted as /dev/sda1 when you use the mount command.
 
-Reinstall luci your new and much bigger extroot space:
+Reinstall luci to your much bigger extroot space:
 ```
 opkg update
 opkg install luci
