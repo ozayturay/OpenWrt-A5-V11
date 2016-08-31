@@ -1,6 +1,6 @@
 # OpenWrt-A5-V11
 
-Tis is an almost step by step tutorial to install a modified (luci removed usb storage support added) kernel to A5-V11 Mini Router using the information from these sites:
+This is an almost step by step tutorial for installing a modified OpenWrt (luci removed usb storage support added) Firmware to A5-V11 Mini Router using the information from these sites:
 https://wiki.openwrt.org/toh/unbranded/a5-v11
 https://wiki.openwrt.org/doc/howto/extroot
 
