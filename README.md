@@ -1,10 +1,12 @@
 # OpenWrt-A5-V11
 
 This is an almost step by step tutorial for installing a modified OpenWrt (luci removed usb storage support added) Firmware to A5-V11 Mini Router using the information from these sites:
+
 https://wiki.openwrt.org/toh/unbranded/a5-v11
 https://wiki.openwrt.org/doc/howto/extroot
 
 Bootloader image file `uboot256.bin` is taken from this site:
+
 https://github.com/wertwert4pda/rt5350f-uboot
 
 Kernel image file `firmware.bin` is generated using this command:
@@ -13,6 +15,7 @@ make image PROFILE="A5-V11" PACKAGES="-luci nano blkid block-mount kmod-nls-cp43
 ```
 
 Image build instructions are taken from this site:
+
 https://wiki.openwrt.org/doc/howto/obtain.firmware.generate 
 
 
